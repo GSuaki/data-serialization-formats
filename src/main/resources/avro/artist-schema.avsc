@@ -1,0 +1,22 @@
+{
+  "name": "ArtistRecord",
+  "type": "record",
+  "namespace": "com.gsuaki.avro.models",
+  "fields": [
+    {
+      "name": "artist_name",
+      "type": "string"
+    },
+    {
+      "name": "cache",
+      "type": "int"
+    },
+    {
+      "name": "cities",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
